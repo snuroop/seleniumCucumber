@@ -3,20 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-12-31T16:35:50.242Z",
-        "line": 4,
-        "name": "Login test",
+        "start_timestamp": "2023-01-03T06:26:03.804Z",
+        "line": 11,
+        "name": "Title of your scenario outline",
         "description": "",
-        "id": ";login-test",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4197844100,
+              "duration": 6096017500,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "user is in login page",
             "match": {
               "location": "com.stepDefinitions.Login.user_is_in_login_page()"
@@ -25,22 +25,32 @@
           },
           {
             "result": {
-              "duration": 446772000,
+              "duration": 534285200,
               "status": "passed"
             },
-            "line": 6,
-            "name": "enter email and password",
+            "line": 5,
+            "name": "Enter the Username Admin and Password admin123",
             "match": {
-              "location": "com.stepDefinitions.Login.enter_email_and_password()"
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 19
+                },
+                {
+                  "val": "admin123",
+                  "offset": 38
+                }
+              ],
+              "location": "com.stepDefinitions.Login.enter_the_Username_and_Password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 31916100,
+              "duration": 31240700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "click login btn",
             "match": {
               "location": "com.stepDefinitions.Login.click_login_btn()"
@@ -49,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 1194430100,
+              "duration": 17477346200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "user should be in home page",
             "match": {
               "location": "com.stepDefinitions.Login.user_should_be_in_home_page()"
@@ -62,20 +72,20 @@
         ]
       },
       {
-        "start_timestamp": "2022-12-31T16:35:56.143Z",
-        "line": 10,
-        "name": "Login test1",
+        "start_timestamp": "2023-01-03T06:26:27.978Z",
+        "line": 12,
+        "name": "Title of your scenario outline",
         "description": "",
-        "id": ";login-test1",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3519409900,
+              "duration": 4417259100,
               "status": "passed"
             },
-            "line": 11,
+            "line": 4,
             "name": "user is in login page",
             "match": {
               "location": "com.stepDefinitions.Login.user_is_in_login_page()"
@@ -84,22 +94,32 @@
           },
           {
             "result": {
-              "duration": 448678700,
+              "duration": 535903200,
               "status": "passed"
             },
-            "line": 12,
-            "name": "enter email and password",
+            "line": 5,
+            "name": "Enter the Username Admin2 and Password admin123456",
             "match": {
-              "location": "com.stepDefinitions.Login.enter_email_and_password()"
+              "arguments": [
+                {
+                  "val": "Admin2",
+                  "offset": 19
+                },
+                {
+                  "val": "admin123456",
+                  "offset": 39
+                }
+              ],
+              "location": "com.stepDefinitions.Login.enter_the_Username_and_Password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 31276100,
+              "duration": 31429500,
               "status": "passed"
             },
-            "line": 13,
+            "line": 6,
             "name": "click login btn",
             "match": {
               "location": "com.stepDefinitions.Login.click_login_btn()"
@@ -108,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 17358076700,
+              "duration": 936546100,
               "status": "passed"
             },
-            "line": 14,
+            "line": 7,
             "name": "user should be in home page",
             "match": {
               "location": "com.stepDefinitions.Login.user_should_be_in_home_page()"
@@ -121,11 +141,11 @@
         ]
       }
     ],
-    "name": "",
-    "description": "sample login application test",
-    "id": "",
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/test.feature",
+    "uri": "file:src/test/resources/Features/exampleOutline.feature",
     "tags": []
   }
 ]

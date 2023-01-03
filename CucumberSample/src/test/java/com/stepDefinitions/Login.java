@@ -24,10 +24,15 @@ public class Login {
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 	}
 
-	@When("enter email and password")
-	public void enter_email_and_password() {
-	   driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys("Admin"); 
-	   driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys("admin123");
+	@When("^Enter the Username (.*) and Password (.*)$")
+	public void enter_the_Username_and_Password(String username,String password) {
+	   driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys(username); 
+	   driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(password);
+	}
+	@When("type {string} and {string}")
+	public void type_and(String email, String password) {
+		 driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys(email); 
+		   driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(password);
 	}
 
 	@And("click login btn")

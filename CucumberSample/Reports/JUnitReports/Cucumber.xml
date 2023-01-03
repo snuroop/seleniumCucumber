@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.353">
-    <testcase classname="" name="Login test" time="5.9">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.2">
+    <testcase classname="Title of your feature" name="Title of your scenario outline" time="24.169">
         <system-out><![CDATA[Given user is in login page.................................................passed
-When enter email and password...............................................passed
+When Enter the Username Admin and Password admin123.........................passed
 And click login btn.........................................................passed
 Then user should be in home page............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="" name="Login test1" time="21.358">
+    <testcase classname="Title of your feature" name="Title of your scenario outline 2" time="5.921">
         <system-out><![CDATA[Given user is in login page.................................................passed
-When enter email and password...............................................passed
+When Enter the Username Admin2 and Password admin123456.....................passed
 And click login btn.........................................................passed
 Then user should be in home page............................................passed
 ]]></system-out>
